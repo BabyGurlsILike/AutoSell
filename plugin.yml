@@ -1,0 +1,16 @@
+name: AutoSell
+main: babygurllike\AutoSell\Main
+api: 4.0.0
+version: 1.0.0
+depend: EconomyAPI
+
+commands:
+  autosell:
+    description: "AutoSell Mod"
+    aliases: [as]
+    permission: autosell.command
+
+permissions:
+  autosell.command:
+    description: "AutoSell Mod"
+    default: op
